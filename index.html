@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentify - Agencija za Nekretnine</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .section-title {
+            text-align: center;
+            font-size: 2.7rem;
+            margin-bottom: 20px;
+        }
+
+        .footer-title {
+            font-size: 2.5rem;
+            text-align: center;
+            color: white;
+        }
+
+        .footer-description {
+            text-align: center;
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            color: white;
+        }
+
+        .footer-button {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 1.2rem;
+            color: white;
+            background-color: crimson;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .footer-button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body class="body">
+
+    <header class="header">
+        <h1 class="header-title">
+            Dobrodošli u <span class="italic-text">Rentify</span>
+        </h1>
+        <table class="header-table">
+            <tr>
+                <td><a href="index.html" class="active-link">Početna</a></td>
+                <td><a href="onama.html" class="nav-link">O nama</a></td>
+                <td><a href="galerija.html" class="nav-link">Galerija</a></td>
+                <td><a href="kontakt.html" class="nav-link">Kontakt</a></td>
+            </tr>
+        </table>
+    </header>
+    
+    <section class="hero">
+        <img src="./slike/pocentaSlike/heroo.jpg" alt="Pozadinska slika" class="hero-image">
+        <div class="hero-content">
+            <h2 class="hero-title">
+                <b>Iznajmljivanje Nekretnina</b> <i>Nikad Nije Bilo Lakše</i>
+            </h2>
+            <p class="hero-subtitle">
+                <b>Prepustite nam</b> <i>brigu o vašim nekretninama.</i>
+            </p>
+            <a href="kontakt.html" class="hero-button">Kontaktirajte nas</a>
+        </div>
+    </section>
+
+    <section class="light">
+        <h2 class="section-title" style="color:black">Izdvojene Nekretnine</h2>
+        <table class="property-table">
+            <tr>
+                <td class="property-card">
+                    <img src="./slike/pocentaSlike/sarajevoStan.jpg" alt="Stan u Sarajevu" class="property-image">
+                    <h3 class="property-title"><b>Stan u Sarajevu</b></h3>
+                    <p class="property-price"><b>Cijena:</b> <i>500 KM/mjesečno</i></p>
+                    <a href="https://olx.ba/artikal/64108958" target="_blank" class="property-link">Detalji</a>
+                </td>
+                <td class="property-card">
+                    <img src="./slike/pocentaSlike/kucaMostar.jpg" alt="Kuća u Mostaru" class="property-image">
+                    <h3 class="property-title"><b>Kuća u Mostaru</b></h3>
+                    <p class="property-price"><b>Cijena:</b> <i>1000 KM/mjesečno</i></p>
+                    <a href="https://olx.ba/artikal/52531602" target="_blank" class="property-link">Detalji</a>
+                </td>
+                <td class="property-card">
+                    <img src="./slike/pocentaSlike/poslovniPros.jpg" alt="Poslovni prostor u Banjaluci" class="property-image">
+                    <h3 class="property-title"><b>Poslovni Prostor</b></h3>
+                    <p class="property-price"><b>Cijena:</b> <i>1200 KM/mjesečno</i></p>
+                    <a href="https://olx.ba/artikal/63925603" target="_blank" class="property-link">Detalji</a>
+                </td>
+            </tr>
+        </table>
+    </section>
+    
+    <section class="light">
+        <h2 class="section-title" style="color:black">Šta naši klijenti kažu</h2>
+        <table class="testimonials-table">
+            <tr>
+                <td class="testimonial">
+                    <p class="testimonial-text">"<b>Uz Rentify smo brzo iznajmili našu kuću</b> u Sarajevu. <i>Toplo preporučujem!</i>"</p>
+                    <cite class="testimonial-author">- Amra H.</cite>
+                </td>
+                <td class="testimonial">
+                    <p class="testimonial-text">"<b>Odlična usluga i brza komunikacija.</b> <i>Moje iskustvo s Rentify-jem je fantastično.</i>"</p>
+                    <cite class="testimonial-author">- Damir K.</cite>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="footer-section">
+        <h2 class="footer-title">Imate pitanja?</h2>
+        <p class="footer-description">Kontaktirajte nas danas i pronađite idealnu nekretninu za vas.</p>
+        <a href="kontakt.html" class="footer-button">Kontaktirajte nas</a>
+    </section>
+
+    <footer class="footer">
+        &copy; 2024 Rentify
+    </footer>
+
+</body>
+</html>

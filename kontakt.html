@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Rentify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-lightblue">
+
+    <header class="header">
+        <h1 class="header-title">
+            Kontaktirajte <span class="italic-text">Rentify</span>
+        </h1>
+        <table class="header-table">
+            <tr>
+                <td><a href="index.html" class="nav-link">Početna</a></td>
+                <td><a href="onama.html" class="nav-link">O nama</a></td>
+                <td><a href="galerija.html" class="nav-link">Galerija</a></td>
+                <td><a href="kontakt.html" class="active-link">Kontakt</a></td>
+            </tr>
+        </table>
+    </header>
+
+    <section class="form-section">
+        <h2 class="form-title">Kontakt Forma</h2>
+        <form method="POST" action="mailto:nekretnine@rentify.com" class="form">
+            <label for="ime" class="form-label">Vaše Ime:</label><br>
+            <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime" class="form-input" required><br>
+            
+            <label for="email" class="form-label">Email Adresa:</label><br>
+            <input type="email" id="email" name="email" placeholder="Unesite svoj email" class="form-input" required><br>
+    
+            <label for="telefon" class="form-label">Broj Telefona:</label><br>
+            <input type="tel" id="telefon" name="telefon" placeholder="Unesite svoj broj telefona" class="form-input"><br>
+    
+            <label for="vrsta_nekretnine" class="form-label">Vrsta Nekretnine:</label><br>
+            <select id="vrsta_nekretnine" name="vrsta_nekretnine" class="form-select" required>
+                <option value="" disabled selected>Odaberite vrstu nekretnine</option>
+                <option value="stan">Stan</option>
+                <option value="kuca">Kuća</option>
+                <option value="poslovni_prostor">Poslovni Prostor</option>
+            </select><br>
+    
+            <label for="poruka" class="form-label">Poruka:</label><br>
+            <textarea id="poruka" name="poruka" rows="5" placeholder="Napišite svoju poruku" class="form-textarea" required></textarea><br>
+    
+            <label class="form-label">Preferirani Način Kontakta:</label><br>
+            <div class="form-radio-group">
+                <label class="form-radio-label">
+                    <input type="radio" name="kontakt" value="email" checked> Email
+                </label>
+                <label class="form-radio-label">
+                    <input type="radio" name="kontakt" value="telefon"> Telefon
+                </label>
+            </div>
+    
+            <button type="submit" class="form-button form-button-submit">Pošalji</button>
+            <button type="reset" class="form-button form-button-reset">Poništi</button>
+        </form>
+    </section>
+    
+
+    <footer class="footer">
+        &copy; 2024 Rentify
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija - Rentify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+<header class="header">
+    <h1 class="header-title">
+        Dobrodošli u <span class="italic-text">Rentify</span> Galeriju
+    </h1>
+    <table class="header-table">
+        <tr>
+            <td><a href="index.html" class="nav-link">Početna</a></td>
+            <td><a href="onama.html" class="nav-link">O nama</a></td>
+            <td><a href="galerija.html" class="active-link">Galerija</a></td>
+            <td><a href="kontakt.html" class="nav-link">Kontakt</a></td>
+        </tr>
+    </table>
+</header>
+
+<section style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; height: 100%; padding: 50px; background: linear-gradient(to right, #2d2d2d, #5a5a5a);">
+    <h2 class="section-title" style="font-size: 2.7rem; margin-bottom: 10px; color: white;">Uživajte u našoj <i>galeriji</i></h2>
+    <p class="section-subtitle" style="font-size: 1.3rem; color: white;">Istražite <i>nekretnine</i> koje vam nudimo</p>
+</section>
+
+
+<section class="light gallery">
+    <h2 class="section-title"  style="color:black"><b>Naše Nekretnine</b></h2>
+    <table class="gallery-table">
+        <tr>
+            <td class="gallery-item">
+                <img src="./slike/galerijaSlike/stan1.jpg" alt="Stan 1" class="gallery-image">
+            </td>
+            <td class="gallery-item">
+                <img src="./slike/galerijaSlike/stan2.jpg" alt="Stan 2" class="gallery-image">
+            </td>
+            <td class="gallery-item">
+                <img src="./slike/galerijaSlike/stan3.jpg" alt="Stan 3" class="gallery-image">
+            </td>
+        </tr>
+        <tr>
+            <td class="gallery-item">
+                <img src="./slike/galerijaSlike/kuca1.jpg" alt="Kuća 1" class="gallery-image">
+            </td>
+            <td class="gallery-item">
+                <img src="./slike/galerijaSlike/kuca2.jpg" alt="Kuća 2" class="gallery-image">
+            </td>
+            <td class="gallery-item">
+                <img src="./slike/galerijaSlike/kuca3.jpg" alt="Kuća 3" class="gallery-image">
+            </td>
+        </tr>
+        <tr>
+            <td class="gallery-item">
+                <img src="./slike/galerijaSlike/pp1.jpg" alt="Poslovni Prostor 1" class="gallery-image">
+            </td>
+            <td class="gallery-item">
+                <img src="./slike/galerijaSlike/pp2.jpg" alt="Poslovni Prostor 2" class="gallery-image">
+            </td>
+            <td class="gallery-item">
+                <img src="./slike/galerijaSlike/pp3.jpg" alt="Poslovni Prostor 3" class="gallery-image">
+            </td>
+        </tr>
+    </table>
+</section>
+
+<section class="video-section">
+    <h2 class="section-title" style="color:black">Video Pregled</h2>
+    <video controls class="video-player">
+        <source src="./slike/galerijaSlike/video.mp4" type="video/mp4">
+        Vaš preglednik ne podržava video.
+    </video>
+    <p class="video-description">Pogledajte naš promotivni video o nekretninama.</p>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2024 Rentify</p>
+</footer>
+
+</body>
+</html>

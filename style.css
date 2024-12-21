@@ -1,0 +1,438 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.header {
+    background: linear-gradient(to right, crimson, #343131);
+    color: white;
+    padding: 20px;
+}
+
+.header-title {
+    padding-top: 30px;
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 0;
+}
+
+.header-table {
+    width: 100%;
+    margin-top: 20px;
+    border-spacing: 10px;
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.active-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 5%;
+    overflow: hidden;
+    background-color: #1c1c1c;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title {
+    font-size: 2.7rem;
+    color: #f4f4f4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-subtitle {
+    font-size: 1.3rem;
+    color: #dcdcdc;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 1% 2%;
+    font-size: 1.3rem;
+    color: white;
+    background-color: crimson;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.light {
+    padding: 5%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+
+.property-table {
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 2%;
+    text-align: center;
+}
+
+.property-card {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 2%;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+
+.property-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.property-title {
+    font-size: 1.8rem;
+    color: crimson;
+    margin: 10px 0;
+}
+
+.property-price {
+    font-size: 1rem;
+}
+
+.property-link {
+    font-size: 1rem;
+    padding: 1% 2%;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.testimonials-table {
+    width: 90%;
+    margin: 0 auto;
+    border-spacing: 2%;
+    text-align: left;
+}
+
+.testimonial {
+    padding: 2%;
+    background-color: #f9f9f9;
+    border-left: 4px solid crimson;
+}
+
+.testimonial-text {
+    font-size: 1.1rem;
+}
+
+.testimonial-author {
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.footer-section {
+    padding: 1%;
+    background: linear-gradient(to right, crimson, #343131);
+    color: white;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    font-size: 1.3rem;
+    padding-bottom: 25px;
+}
+
+.footer-button {
+    font-size: 1rem;
+    padding: 1% 2%;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer {
+    background: linear-gradient(to right, crimson, #343131);
+    color: white;
+    padding: 2%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.gallery {
+    padding: 5%;
+    background-color: #f4f4f4;
+}
+
+.gallery-table {
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 2%;
+    text-align: center;
+}
+
+.gallery-item {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.video-section {
+    padding: 5%;
+    background-color: white;
+    text-align: center;
+}
+
+.video-player {
+    width: 90%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.video-description {
+    font-size: 1.2rem;
+    margin-top: 1%;
+}
+
+.gradient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    background: linear-gradient(to right, #2d2d2d, #5a5a5a);
+}
+
+.mission-vision {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.section-content {
+    font-size: 1.3rem;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-section {
+    padding: 50px 5%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.team-table {
+    display: flex;
+    flex-wrap: wrap; /* Enables wrapping of cards to the next row */
+    justify-content: center; /* Centers all cards */
+    gap: 20px; /* Space between cards */
+    margin: 0 auto;
+}
+
+.team-member {
+    flex: 1 1 300px; /* Ensures cards are a consistent width */
+    max-width: 300px; /* Prevents cards from growing beyond this size */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.team-photo {
+    width: 90%; 
+    height: auto;
+    max-width: 280px; /* Consistent maximum width */
+    object-fit: cover; /* Prevents distortion of images */
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: crimson;
+}
+
+.team-role {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+
+.history {
+    font-size: 1.3rem;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing {
+    padding: 5%;
+    background-color: #ffffff;
+    margin-bottom: 5%;
+}
+
+.pricing-table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.pricing-header {
+    background-color: crimson;
+    color: white;
+}
+
+.pricing-row {
+    background-color: #f4f4f4;
+}
+
+.pricing-row-alt {
+    background-color: #ffffff;
+}
+
+.pricing-type,
+.pricing-price {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.body-lightblue {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.form-section {
+    padding: 5%;
+    text-align: center;
+    background-color: #f0f2f5;
+}
+
+.form-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #343131;
+    font-weight: 600;
+}
+
+.form {
+    max-width: 50%;
+    margin: 0 auto;
+    background: white;
+    padding: 5%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.form-label {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+    margin: 10px 0 20px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.form-textarea {
+    resize: vertical;
+}
+
+.form-radio-group {
+    margin: 10px 0 20px;
+    font-size: 1rem;
+}
+
+.form-radio-label {
+    margin-right: 15px;
+}
+
+.form-button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-button-submit {
+    background: crimson;
+}
+
+.form-button-reset {
+    background: gray;
+    margin-left: 15px;
+}
